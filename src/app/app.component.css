@@ -1,9 +1,53 @@
+body {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: limegreen;
+}
+
 .container {
   position: relative;
-  width: 100%;
-  height: 100%;
-  border-style: groove;
-  border-color: lawngreen;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15%;
+  width: 400px;
+  height: 200px;
+  background-color: ghostwhite;
+}
+
+.intputFont {
+  position: relative;
+  width: 100px;
+  margin-top: 20px;
+  margin-left: 100px;
+}
+
+.buttonSpec {
+  position: absolute;
+  /*display: inline-block;*/
+  width: 40%;
+  height: 15%;
+  margin-top: 16px;
+  margin-left: 100px;
+  background-color: darkgreen;
+}
+
+.notificationSpec {
+  position: absolute;
+  display: inline-block;
+  height: 15%;
+  width: 53%;
+  margin-top: 55px;
+  margin-left: 102px;
+}
+
+.notiFont {
+  position: absolute;
+  font-size: xx-small;
+  display: inline-block;
+
 }
 
 nav {
@@ -12,7 +56,6 @@ nav {
   left: 0px;
   width: 25%;
   border-style: groove;
-  border-color: deeppink;
 }
 
 .colum {
@@ -36,10 +79,6 @@ footer {
   height: 70px;
   background-color: white;
   width: 100%;
-}
-
-body {
-  margin-bottom: 120px;
 }
 
 .border2 {
