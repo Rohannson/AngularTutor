@@ -4,13 +4,13 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import {ServerComponent} from './server/server.component';
-import { CookAppComponent } from './cook-app/cook-app.component';
+import { CookComponent } from './cook/cook.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ServerComponent,
-    CookAppComponent
+    CookComponent
   ],
   imports: [
     BrowserModule,

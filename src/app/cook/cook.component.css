@@ -1,0 +1,50 @@
+.container {
+  background-color: palevioletred;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 300px;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.inputBox {
+  color: orange;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.buttonSection {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.buttonSpec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100px;
+  padding: 5px 8px;
+  background: coral;
+  color: darkorange;
+  border: 1px solid #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.buttonSpec:hover {
+  color: #ffffff;
+}
+
+.dish {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  color: darkred;
+}
