@@ -3,18 +3,23 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-color: #A356CF;
+  background-image: linear-gradient(to bottom right, #7A88FF, #7AFFAF);
 }
 
 .headline {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-style: oblique;
+  text-align: center;
+  font-style: italic;
   font-size: large;
   color: white;
-  height: 30px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 25px;
+}
+
+.warp {
+  background-color: lime;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .describe {
@@ -39,7 +44,6 @@
   border-style: solid;
   border-width: 1px;
   border-color: white;
-  width: 20%;
   margin-left: 5%;
   margin-right: 5%;
   display: flex;
